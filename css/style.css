@@ -1,0 +1,79 @@
+.main{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    height: 900px;
+    background-color: #ffffff;
+}
+
+
+#img-1{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 300px;
+    height: 200px;
+    background-size: 100% 100%;
+    transition: all 0.4s;
+    background-image: url(../imagens/dog1.jpg);
+}
+#img-1:active{
+    transform: scale(0.6) translateY(60px) ;
+    background-image: url(../imagens/dog2.jpg);
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px black;
+}
+
+#img-2{
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    width: 280px;
+    height: 250px;
+    background-size: 100% 100%;
+    transition: all 0.5s;
+    background-image: url(../imagens/bale1.jpg);
+}
+#img-2:hover{
+    transform: scale(1.5) ;
+    background-image: url(../imagens/bale2.jpg);
+
+
+}
+
+
+
+#img-3{
+    position: absolute;
+    left:100px;
+    top: 450px;
+    width: 400px;
+    height: 350px;
+    background-size: 100% 100%;
+    transition: all 0.1s;
+    background-image: url(../imagens/vaca1.jpg);
+}
+#img-3:hover{
+    transform: scale(0.7);
+    background-image: url(../imagens/vaca2.jpg);
+    
+}
+
+#img-4{
+    position: absolute;
+    right:150px;
+    top: 450px;
+    width: 400px;
+    height: 350px;
+    background-size: 100% 100%;
+    transition: all 0.5s;
+    background-image: url(../imagens/tnt1.jpg);
+}
+#img-4:active{
+    transform: scale(1.5) ;
+    background-image: url(../imagens/tnt2.jpg);
+  
+}
